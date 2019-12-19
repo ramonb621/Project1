@@ -1,0 +1,22 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Ramon's Duh! Travel Planner Update",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonb621/Project1.git"
+  },
+  "author": "Kathleen, Ramon, & Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramonb621/Project1/issues"
+  },
+  "homepage": "https://github.com/ramonb621/Project1#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,4 +1,5 @@
 // FUNCTIONS
+require("dotenv").config;
 // ==============================================================================
 // Your web app's Firebase configuration
 var firebaseConfig = {
@@ -404,7 +405,7 @@ function displayRegion(input) {
 // Global User Radius
 var gUserRadius = 25;
 // Eventbrite API
-var eventbriteAPIKey = "2OWVIDMBHHXNW7ZZQ4KE";
+var eventbriteAPIKey = process.env.eventbriteAPIKey;
 // AJAX Call to Eventbrite
 function eventbrite(input, r) {
 
